@@ -6,10 +6,23 @@
 
 :root {
   --brand-color: #EF5F4C;
-  --brand-color: #FFFFFF;
-  --brend-color: #F5F5F5;
-  --brend-color: #D9D9D9;
-  --brend-color: #ffffff90;
-  --brend-color: #313131;
-  --brend-color: #6C6C6C;
+  --background-color: #FFFFFF;
+  --surface-color: #F5F5F5;
+  --skeleton-color: #D9D9D9;
+  --shape-transparency: #ffffff90;
+  --text-color-primary: #313131;
+  --text-color-secondary: #6C6C6C;
+
+  --font-family: "Poppins", sans-serif;
+  --text-lg: bold 32px/125% var(--font-family)
+  --text: 16px/1.5 var(--font-family)
+  --text-md: 14px 170% var(--font-family)
+  --text-sm: 12px 170% var(--font-family)
 }
+
+body {
+  font: var(--text-lg);
+  color: var(--text-color-secondary);
+  background-color: var(--background-color);
+}
+
